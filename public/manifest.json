@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "my-marche",
+  "short_name": "My Marche",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "My Marche"
+}
