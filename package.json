@@ -1,9 +1,9 @@
 {
   "author": "Paolo Leopardi <leopardipaolo@gmail.com>",
-  "description": "Market health frontend",
-  "engines": {
-    "node": ">=15.0.0"
+  "dependencies": {
+    "lightweight-charts": "^4.1.4"
   },
+  "description": "Market health frontend",
   "devDependencies": {
     "@builder.io/qwik": "^1.5.4",
     "@builder.io/qwik-city": "^1.5.4",
@@ -31,6 +31,9 @@
     "vite": "^5.2.11",
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=15.0.0"
   },
   "name": "market-health-frontend",
   "private": true,
