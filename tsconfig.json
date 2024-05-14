@@ -13,7 +13,8 @@
     "noEmit": true,
     "outDir": "tmp",
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "modules/*": ["./src/modules/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
