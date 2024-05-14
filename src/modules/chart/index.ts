@@ -1,0 +1,1 @@
+export {getDataPoints} from './repository';
