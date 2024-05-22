@@ -1,4 +1,4 @@
-export type DataPoint = {
+export type Bar = {
   close: number;
   high: number;
   low: number;

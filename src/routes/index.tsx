@@ -1,7 +1,7 @@
 import {component$, useSignal, useVisibleTask$} from '@builder.io/qwik';
 import type {DocumentHead} from '@builder.io/qwik-city';
 import {createChart} from 'lightweight-charts';
-import {getDataPoints} from 'modules/chart';
+import {getBars} from 'modules/chart';
 
 export default component$(() => {
   const chartRef = useSignal<HTMLElement>();
@@ -25,7 +25,7 @@ export default component$(() => {
       wickUpColor: '#26A69A',
     });
 
-    getDataPoints().then(candlestickSeries.setData.bind(candlestickSeries));
+    getBars().then(candlestickSeries.setData.bind(candlestickSeries));
   });
 
   return <div ref={chartRef} class="h-full w-full" />;

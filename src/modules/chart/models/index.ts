@@ -1,1 +1,1 @@
-export {type DataPoint} from './DataPoint';
+export {type Bar} from './Bar';

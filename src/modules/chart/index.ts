@@ -1,1 +1,1 @@
-export {getDataPoints} from './repository';
+export {getBars} from './repository';

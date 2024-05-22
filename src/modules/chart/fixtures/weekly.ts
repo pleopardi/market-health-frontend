@@ -1,6 +1,6 @@
-import type {DataPoint} from '../models';
+import type {Bar} from '../models';
 
-const weekly: DataPoint[] = [
+const weekly: Bar[] = [
   {
     close: 95.87,
     high: 97.5,

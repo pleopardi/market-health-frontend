@@ -1,3 +1,3 @@
-import type {DataPoint} from './models';
+import type {Bar} from './models';
 
-export type GetDataPoints = () => Promise<DataPoint[]>;
+export type GetBars = () => Promise<Bar[]>;

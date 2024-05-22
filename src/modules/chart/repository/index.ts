@@ -1,1 +1,1 @@
-export {default as getDataPoints} from './getDataPoints';
+export {default as getBars} from './getBars';
