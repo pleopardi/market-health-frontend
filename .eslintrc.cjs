@@ -37,6 +37,7 @@ module.exports = {
     '@typescript-eslint/no-this-alias': 'off',
     '@typescript-eslint/no-unnecessary-condition': 'warn',
     '@typescript-eslint/no-unused-vars': ['error'],
+    'jsx-a11y/label-has-associated-control': 'off',
     'no-case-declarations': 'off',
     'no-console': 'warn',
     'prefer-spread': 'off',
