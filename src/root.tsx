@@ -6,6 +6,7 @@ import {
   RouterOutlet,
   ServiceWorkerRegister,
 } from '@builder.io/qwik-city';
+import Notification from 'components/Notification';
 
 export default component$(() => {
   /**
@@ -25,6 +26,7 @@ export default component$(() => {
       <body lang="en">
         <RouterOutlet />
         <ServiceWorkerRegister />
+        <Notification />
       </body>
     </QwikCityProvider>
   );
