@@ -14,7 +14,11 @@
     "outDir": "tmp",
     "paths": {
       "~/*": ["./src/*"],
-      "modules/*": ["./src/modules/*"]
+      "brokers/*": ["./src/brokers/*"],
+      "components/*": ["./src/components/*"],
+      "modules/*": ["./src/modules/*"],
+      "types/*": ["./src/types/*"],
+      "utilities/*": ["./src/utilities/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
