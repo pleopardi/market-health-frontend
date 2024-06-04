@@ -1,7 +1,9 @@
 {
   "author": "Paolo Leopardi <leopardipaolo@gmail.com>",
   "dependencies": {
-    "lightweight-charts": "^4.1.4"
+    "@qwikest/icons": "^0.0.13",
+    "lightweight-charts": "^4.1.4",
+    "zod": "^3.23.8"
   },
   "description": "Market health frontend",
   "devDependencies": {
